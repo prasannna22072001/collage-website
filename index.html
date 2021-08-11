@@ -1,0 +1,352 @@
+<html>
+
+<head>
+
+<title>
+	parul university
+</title>
+
+<style>
+
+	#fisec{
+		background-color:#415E9B;
+		height:85px; 
+		margin:0 auto ;
+		}
+		
+	body{
+		margin:0 auto;
+		font-family: Helvetica,Arial,sans-serif;
+		background-color:#EBEDF4;
+		
+
+		}
+		
+	#facetext{
+		font-weight:bold;
+		font-size:40px;
+		color:#FFFFFF;
+		padding-top:30px;
+		padding-left:185px;
+		float:left;
+		}
+		
+	#corn{
+		padding-left:435px;
+		padding-top:23px;
+		float:left;
+		
+		}
+		
+	.gtext{
+		font-size:13px;
+		color:#FFFFFF;
+		margin-left:1px;
+		margin-bottom:7px;
+		}
+		
+	.input{
+		width:150px;
+		margin:0;
+		border:1px black solid;
+		}
+		
+	#cornn{
+		padding-left:14px;
+		padding-top:22px;
+		float:left;
+		}
+		
+	#forgettext{
+		font-size:12px;
+		padding-top:4px;
+		color:#9CB4D8;
+		}
+		
+	#logtext{
+		border:1px #29487D solid;
+		padding:3px 5px;
+		margin-left:14px;
+		margin-top:43px;
+		float:left;
+		color:#FFFFFF;
+		font-size:12px;
+		background-color:#6386cc;
+		width: 38px;
+		
+		}
+		
+	#logtext:hover{
+		background-color:#365899;
+	}
+		
+	
+		
+	#content{
+		font-weight:bold;
+		font-size:20px;
+		color:#0E385F;
+		margin-bottom:5px;
+	
+		
+		}
+	
+	#lcont{
+		
+		padding-left:185px;
+		padding-top:45px;
+		float:left;50px;
+		}
+		
+	#rcont{
+		float:left;
+		padding-top:25px;
+		padding-left:45px;
+		
+			}
+			
+	#createtext{
+		font-size:35px;
+		font-weight:bold;
+		
+		}	
+		
+	#itstext{
+		font-size:19px;
+		padding-top:10px;
+		
+		}
+	
+	#fsearch{
+		
+		width:195px;
+		float:left;
+		margin-right:10px;
+		
+		
+		}
+		
+	#ssearch{
+		width:195px;
+		float:left;
+		
+		}
+		
+	.searchbox{
+		border:1px #c5cde8 solid;
+		background-color:white;
+		border-radius:5px;
+		height:40px;
+		font-size:18px;
+		font-weight:bold;
+		
+		}
+	#searches{
+		padding-top:20px;
+		}	
+		
+	#tsearch{
+		margin-top:10px;
+		width:400px;
+		}
+	
+	#fosearch{
+		margin-top:10px;
+		width:400px;
+		
+	
+		}
+		
+	.dattext{
+		font-size:17px;
+		font-weight:bold;
+		padding-top:18px;
+		color:#7a7676;
+		
+		}
+	
+	#num{
+		float:left;
+		width:58px;
+		height:29px;
+		border-color:#CCD0D5;
+		}
+	
+	#month{
+		float:left;
+		width:70px;
+		height:29px;
+		border-color:#CCD0D5;
+		}	
+		
+	#year{
+		float:left;
+		width:64px;
+		height:29px;
+		border-color:#CCD0D5;
+		}
+		
+	#quemark{
+		float:left;
+		}
+		
+	.pos{
+		float:left;
+		}
+		
+	.gendiv{
+		float:left;
+		font-size:16px;
+		color:#1D2129;
+		font-weight:400;
+		}
+		
+	#signbutton{
+		border:1px #3B6E22 solid;
+		padding:5px 62px;
+		background-color:#5A8C46;
+		color:#FFFFFF;
+		font-size:18px;
+		font-weight:bold;
+		border-radius:3px;
+		position: relative;
+		top:30px;
+		left: 110px;
+	}
+	
+	#signbutton:hover{
+		background-color: #527743;
+	}
+	#margin{
+		margin-top: 12px;
+	}
+</style>
+
+</head>
+
+<body>
+	
+	<div id="fisec">
+	<div id="facetext">parul university</div>
+	<form action="login.php" method="POST"> 
+	<div id="corn">
+	<div class="gtext">Email</div>
+	<input class="input" name="email">
+	</div>
+		<div id="cornn">
+			<div class="gtext">Password</div>
+			<input class="input" type="password" name="password">
+			<div id="forgettext">Forgotten account?</div>
+		</div>
+		<input type="submit" id="logtext" value="login">
+	</form>	
+	</div>
+	<div id="lcont">
+	<div id="content">parul university be here be vibrant <br> vadodara gujarat</div>
+	<img src="people.png">
+	</div>
+	<div id="rcont">
+	<div id="createtext">Create an account</div>
+	<div id="itstext">It's quick and easy.</div>
+	<form action="signup.php" method="POST">
+	<div id="searches">
+	<input id="fsearch" class="searchbox" name="fname" placeholder="  First name">
+	<input id="ssearch" class="searchbox" name="sname" placeholder="  Surname"><br>
+	<input id="tsearch" type="email" class="searchbox" name="email" placeholder="  Email"><br> 
+	<input id="fosearch" type="password" class="searchbox" name="password" placeholder="  Password">
+	
+	</div>
+	<div class="dattext">Date of birth</div>
+	<div id="date">
+		<select name="date" id="num">
+			<option>1</option>
+			<option>2</option>
+			<option>3</option>
+			<option>4</option>
+			<option>5</option>
+			<option>6</option>
+			<option>7</option>
+			<option>8</option>
+			<option>9</option>
+			<option>10</option>
+			<option>11</option>
+			<option>12</option>
+			<option>13</option>
+			<option>14</option>
+			<option>15</option>
+			<option>16</option>
+			<option>17</option>
+			<option>18</option>
+			<option>19</option>
+			<option>20</option>
+			<option>21</option>
+			<option>22</option>
+			<option>23</option>
+			<option>24</option>
+			<option>25</option>
+			<option>26</option>
+			<option>27</option>
+			<option>28</option>
+			<option>29</option>
+			<option>30</option>
+			<option>31</option>
+		</select>
+		<select name="month" id="month">
+			<option>jan</option>
+			<option>feb</option>
+			<option>mar</option>
+			<option>apr</option>
+			<option>may</option>
+			<option>june</option>
+			<option>july</option>
+			<option>aug</option>
+			<option>sep</option>
+			<option>oct</option>
+			<option>nov</option>
+			<option>dec</option>
+		</select>
+		<select name="year" id="year">
+			<option>2020</option>
+			<option>2019</option>
+			<option>2018</option>
+			<option>2017</option>
+			<option>2016</option>
+			<option>2015</option>
+			<option>2014</option>
+			<option>2013</option>
+			<option>2012</option>
+			<option>2011</option>
+			<option>2010</option>
+			<option>2009</option>
+			<option>2008</option>
+			<option>2007</option>
+			<option>2006</option>
+			<option>2005</option>
+			<option>2004</option>
+			<option>2003</option>
+			<option>2002</option>
+			<option>2001</option>
+			<option>2000</option>
+			<option>1999</option>
+			<option>1998</option>
+
+		</select>
+		<img src="quemark.png" id="quemark"><br>
+		<div id="margin"> 
+			<div class="dattext">Gender<div>
+			<input type="radio" name="gender" class="pos" value="female"><div class="gendiv">Female</div>
+			<input type="radio" name="gender" class="pos" value="male"><div class="gendiv">Male</div>
+			<input type="radio" name="gender" class="pos" value="custom"><div class="gendiv">Custom</div>
+			<img src="quemark.png" id="quemark"><br>
+		</div>
+		<input type="submit" value="Sign Up" id="signbutton">
+	</form>
+		
+		
+	</div>
+	
+	</div>
+
+</body>
+
+</html>
